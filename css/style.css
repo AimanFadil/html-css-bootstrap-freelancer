@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
 /* BG */
 .bg-litegreen{
     background-color: rgb(26,188,156);
@@ -50,14 +58,83 @@ header{
     height: 80px;
     background-color: rgb(44,62,80);
 }
+
+.pad-y_x{
+    padding: 20px 0;
+}
 /* MAIN */
 .content{
-    height: 50px;
+    
+}
+.img{
+    width: 348px;
+    height: 385px;
 }
 
-.height-cont{
-    height: 400px;
-}
+
+h3 {
+    font-family: sans-serif;
+    margin: 100px auto;
+    color: #228B22;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    position: relative;
+  }
+  h3:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #ffffff;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  h3:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #ffffff;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+
+  .nero > h3 {
+    font-family: sans-serif;
+    margin: 100px auto;
+    color: #228B22;
+    text-align: center;
+    font-size: 30px;
+    max-width: 600px;
+    position: relative;
+  }
+  .nero > h3:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #000000;
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+  .nero > h3:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #000000;
+    right: 0;
+    top: 50%;
+    position: absolute;
+  }
+
+  .nero{
+
+  }
 
 .height{
     height: 200px;
