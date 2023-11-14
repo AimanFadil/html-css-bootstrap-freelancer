@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+.center-t{
     text-align: center;
 }
 
@@ -61,6 +61,10 @@ header{
 
 .pad-y_x{
     padding: 20px 0;
+}
+
+.height{
+    height: 200px;
 }
 /* MAIN */
 .content{
