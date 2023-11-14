@@ -75,11 +75,15 @@ header{
     height: 385px;
 }
 
+.line-border{
+    
+    border-bottom: 1px solid black;
+}
+
 
 h3 {
     font-family: sans-serif;
     margin: 100px auto;
-    color: #228B22;
     text-align: center;
     font-size: 30px;
     max-width: 600px;
